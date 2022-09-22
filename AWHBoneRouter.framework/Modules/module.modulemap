@@ -1,0 +1,6 @@
+framework module AWHBoneRouter {
+  umbrella header "AWHBoneRouter.h"
+
+  export *
+  module * { export * }
+}
