@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHBoneRouter"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of AWHBoneRouter."
 
   # This description is used to generate tags and improve search results.
@@ -168,7 +168,7 @@ Pod::Spec.new do |s|
   #  您可以包含多个依赖项以确保其正常工作。
 
    s.requires_arc = true
-   s.static_framework = true
+  #s.static_framework = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
